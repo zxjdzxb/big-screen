@@ -4,6 +4,7 @@ import headerBg from '../images/header.png';
 import {Chart1} from '../components/chart-1';
 import {Chart2} from '../components/chart-2';
 
+const year = new Date().getFullYear();
 export const Home = () => {
   return (
     <div className="home">
@@ -18,6 +19,9 @@ export const Home = () => {
         <section className="bordered section4"></section>
         <section className="bordered section5"></section>
       </main>
+      <footer>
+        &copy; zxjdzxb 2020-{year}
+      </footer>
     </div>
   );
 };
