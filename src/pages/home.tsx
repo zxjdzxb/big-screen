@@ -16,8 +16,8 @@ const year = new Date().getFullYear();
 export const Home = () => {
   return (
     <div className="home">
-      <header >
-       <h1>信息统计表</h1>
+      <header>
+        <h1>信息统计表</h1>
         <div className="time"> 2022年8月1日</div>
       </header>
       <main>
@@ -43,7 +43,22 @@ export const Home = () => {
             </div>
           </div>
         </section>
-        <section className="bordered section5"></section>
+        <section className="section5">
+          <div className="bordered row1 案发类型">
+            <h2>案发类型统计</h2>
+            <div className="charts">
+
+            </div>
+          </div>
+          <div className="bordered row2 案发街道">
+            <h2>案发街道统计</h2>
+            <div className="charts">
+            </div>
+          </div>
+          <div className="bordered row3 作案手段">
+            <h2>作案手段分析</h2>
+          </div>
+        </section>
       </main>
       <footer>
         &copy; zxjdzxb 2020-{year}
