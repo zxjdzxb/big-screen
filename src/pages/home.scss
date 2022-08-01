@@ -9,13 +9,29 @@
   font-size: px(16);
 
   > header {
-    padding-top: px(30);
+    background: no-repeat left/cover url(../images/header.png);
+    padding-top: px(5);
+    display: flex;
     height: px(99);
     background-size: cover;
     width: px(2420);
-    margin: 0 auto;
+    margin: auto;
+    align-items: center;
+    color:#023e8a;
+    text-shadow: #000 0 0 .2em;
+    > h1 {
+      font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', cursive,
+      fantasy;
+      margin-top: 3%;
+    }
+    .time {
+      text-align: right;
+      flex: 1;
+      font-size: px(16);
+      color:#054478;
+      margin-top: 4%;
+    }
   }
-
   > footer {
     height: px(68);
     border: 1px solid #0d2d59;

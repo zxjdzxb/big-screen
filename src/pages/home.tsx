@@ -16,7 +16,10 @@ const year = new Date().getFullYear();
 export const Home = () => {
   return (
     <div className="home">
-      <header style={{backgroundImage: `url(${headerBg})`}}/>
+      <header >
+       <h1>信息统计表</h1>
+        <div className="time"> 2022年8月1日</div>
+      </header>
       <main>
         <section className="section1">
           <Chart1/>
