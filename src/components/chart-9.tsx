@@ -4,7 +4,7 @@ import * as echarts from 'echarts';
 export const Chart9 = () => {
   const divRef = useRef(null);
   useEffect(() => {
-    var myChart = echarts.init(divRef.current);
+    let myChart = echarts.init(divRef.current);
   }, []);
 
   return (
