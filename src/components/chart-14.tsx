@@ -12,56 +12,46 @@ export const Chart14 = () => {
       </thead>
       <tbody>
       <tr>
-        <td rowSpan={4}>入室盗窃</td>
-        <td>翻窗入室</td>
-        <td>10</td>
-        <td rowSpan={4}>80</td>
+        <td rowSpan={4}>共享单车</td>
+        <td>哈啰出行</td>
+        <td>40</td>
+        <td rowSpan={4}>110</td>
       </tr>
       <tr>
-        <td>撬门入室</td>
+        <td>骑呗单车</td>
         <td>20</td>
       </tr>
       <tr>
-        <td>技术开锁</td>
+        <td>OfO小黄车</td>
         <td>20</td>
       </tr>
       <tr>
-        <td>撬防护栏</td>
+        <td>快兔出行</td>
         <td>30</td>
       </tr>
       <tr>
-        <td rowSpan={2}>抢夺</td>
-        <td>摩托车飞车抢夺</td>
-        <td>22</td>
-        <td rowSpan={2}>44</td>
-      </tr>
-      <tr>
-        <td>徒手抢夺</td>
-        <td>22</td>
-      </tr>
-      <tr>
-        <td rowSpan={3}>扒窃</td>
-        <td>公交车扒窃</td>
-        <td>40</td>
-        <td rowSpan={3}>68</td>
-      </tr>
-      <tr>
-        <td>车站扒窃</td>
-        <td>22</td>
-      </tr>
-      <tr>
-        <td>街面扒窃</td>
-        <td>45</td>
-      </tr>
-      <tr>
-        <td rowSpan={2}>诈骗</td>
-        <td>甩票子诈骗</td>
+        <td rowSpan={2}>乘坐</td>
+        <td>公交</td>
         <td>32</td>
-        <td rowSpan={2}>102</td>
+        <td rowSpan={2}>54</td>
       </tr>
       <tr>
-        <td>买手机诈骗</td>
-        <td>80</td>
+        <td>地铁</td>
+        <td>22</td>
+      </tr>
+      <tr>
+        <td rowSpan={3}>长途</td>
+        <td>火车</td>
+        <td>35</td>
+        <td rowSpan={3}>100</td>
+      </tr>
+      <tr>
+        <td>高铁</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>火车</td>
+        <td>45</td>
       </tr>
       </tbody>
     </table>

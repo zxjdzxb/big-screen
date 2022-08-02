@@ -32,10 +32,10 @@ export const Chart8 = () => {
           },
           data: [
             {value: 0.07, name: '10-20'},
-            {value: 0.10, name: '20-30'},
-            {value: 0.23, name: '30-40'},
-            {value: 0.28, name: '40-50'},
-            {value: 0.32, name: '50-60'},
+            {value: 0.25, name: '20-30'},
+            {value: 0.28, name: '30-40'},
+            {value: 0.18, name: '40-50'},
+            {value: 0.22, name: '50-60'},
           ]
         }
       ]

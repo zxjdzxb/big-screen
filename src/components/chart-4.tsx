@@ -52,7 +52,7 @@ export const Chart4 = () => {
 
   return (
     <div className="bordered 案发时段">
-      <h2>案发时段分析</h2>
+      <h2>预警统计</h2>
       <div ref={divRef} className="chart"/>
     </div>
   );
